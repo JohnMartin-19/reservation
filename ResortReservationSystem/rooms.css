@@ -1,0 +1,326 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background: f1fbff;
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #0000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: rgb(170, 18, 18);
+}
+.navbar-light .navbar-nav .navbar-link{
+    color:rgb(170, 18, 18);
+}
+.rooms h1{
+    background-color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.rooms h1:hover{
+    text-decoration: underline solid rgb(170, 18, 18) 1px;
+    transition: 2s;
+}
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+    color: aliceblue;
+    
+}
+
+.items{
+    background-color: rgb(252, 246, 246);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 5px 0
+}
+.item{
+    background-image: url(/home/merian/Desktop/FinalYearProject/ResortReservationSystem/images/olswah.jpeg );
+    background-image: no-repeat;
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+.item2{
+    background-image: url(/home/merian/Desktop/FinalYearProject/ResortReservationSystem/images/oldswahili.jpeg );
+    background-image: no-repeat;
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+.item3{
+   
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+.item h1{
+    color: rgb(170, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(170, 18, 18) solid 1px;
+}
+
+.item p{
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+}
+.item button{
+    position: absolute;
+    background: rgb(170, 18, 18);
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.item2 h1{
+    color: rgb(170, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(170, 18, 18) solid 1px;
+}
+.item2 p{
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+}
+.item2 button{
+    position: absolute;
+    background: rgb(170, 18, 18);
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.item3 h1{
+    color: rgb(170, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(170, 18, 18) solid 1px;
+}
+.item3 p{
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    line-height: 40px;
+}
+.item3 button{
+    position: absolute;
+    background: rgb(170, 18, 18);
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+ button:hover{
+background-color: transparent;
+transition: 2s;
+color: rgb(170, 18, 18);
+ }
+ .views{
+    background-color: rgb(252, 246, 246);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 5px 0
+}
+.view{
+    
+        width: 95%;
+        max-width: 960px;
+        padding: 2.5rem;
+        position: relative;
+        margin: 20px;
+    
+}
+.view2{
+    background-image: url(/home/merian/Desktop/FinalYearProject/ResortReservationSystem/images/acc.jpeg);
+    background-image: no-repeat;
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+.view3{
+   
+    background-image: url( /home/merian/Desktop/FinalYearProject/ResortReservationSystem/images/long.jpeg);
+    background-image: no-repeat;
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+.view h1{
+    color: rgb(170, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(170, 18, 18) solid 1px;
+}
+.view p{
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    line-height: 40px;
+}
+.view button{
+    position: absolute;
+    background: rgb(170, 18, 18);
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.pens{
+    background-color: rgb(252, 246, 246);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 5px 0
+}
+.pen{
+    background-image: url(/home/merian/Desktop/FinalYearProject/ResortReservationSystem/images/fring.jpeg);
+    background-image: no-repeat;
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+
+.pen2{
+    
+    
+        width: 95%;
+        max-width: 960px;
+        padding: 2.5rem;
+        position: relative;
+        margin: 20px;
+}
+.pen3{
+   
+    background-image: url( /home/merian/Desktop/FinalYearProject/ResortReservationSystem/images/frng.jpeg);
+    background-image: no-repeat;
+    width: 95%;
+    max-width: 960px;
+    padding: 2.5rem;
+    position: relative;
+    margin: 20px;
+}
+.pen2 h1{
+    color: rgb(170, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(170, 18, 18) solid 1px;
+}
+.pen2 p{
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    line-height: 40px;
+}
+.pen2 button{
+    position: absolute;
+    background: rgb(170, 18, 18);
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    transition: 2s;
+    color: rgb(170, 18, 18);
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer-col1{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col1 h4{
+    font-size: 18px;
+    color: white;
+}
+.footer-col1 h4:hover{
+    color:rgb(170, 18, 18); 
+}
+.footer-col1 ul li:not(:last-child){
+   margin-bottom: 10px;
+}
+.footer-col1 ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+}
+.footer-col1 ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col1 i{
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    color: #ffffff;
+}
+.footer-col1 i:hover{
+    color: #24262b;
+    
+}
+footer .footer-bottom{
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+
+}

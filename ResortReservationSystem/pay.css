@@ -1,0 +1,112 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body{
+    background: f1fbff;
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #0000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: rgb(170, 18, 18);
+}
+.navbar-light .navbar-nav .navbar-link{
+    color:rgb(170, 18, 18);
+}
+.container{
+    max-width: 1180px;
+    
+    margin: 0 auto;
+    padding: 0 3rem;
+
+}
+#container{
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #cc2e2e 70%, #cc2e2e 40.1%);
+    padding-bottom: 70px; 
+}
+#container form{
+    padding: 20px;
+    width: 700px;
+    background: #ffff;
+    box-shadow: 0 5px black;
+}
+#container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#container form .row .col{
+ flex: 1 1 250px;
+}
+
+#container form .row .col .title{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+#container form .row .col .inputBox{
+    margin: 15px 0;
+}
+#container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+
+}
+.img{
+   width: 100%;
+   height: 120px;
+
+}
+#container form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+#container form .row .col .inputBox input:focus{
+    border:1px solid black;
+}
+#container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+#container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+footer .footer-bottom{
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+
+}

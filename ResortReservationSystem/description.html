@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="description.css" rel="stylesheet"/>
+    <script href="description.js" src="description.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>
+        L.Elementaita.R
+    </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">LAKE ELEME<span class="text-danger">NTAITA RESORT</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rooms.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="location.html">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="conferencing.html">Conferencing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html"><button class="btn btn-danger">BOOK NOW</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  <section class="section-padding">
+   
+        <div class="container">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <form action="description.php" method="post">
+            <div class="row">
+              <div class="col-md-8">Check-in Date
+                <input type="date" id="in" placeholder="Select date"></input> - Check-Out Date<input id= "out" type="date"></input>
+              </div>
+              <div class="col-6 col-md-4" id="adult">
+                Adults:<input type="number" placeholder=" Number of Adults" name="adults" id="adults">
+                <br>
+                <br>
+                Children:<input type="number" placeholder="Number of Children" id="children">
+            </div>
+            </div>
+            
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row" id="descript">
+                <div class="col-6"><h5>Reserve a:</h5></div>
+                <div class="col-6" id="details">
+                    <h5>Room Description</h5>
+                    <p>The room selected has the following features/amenities:<br></p> 
+                        - WiFi<br>
+                        - Balcony<br>
+                        - TV set<br>
+                        - Queen Size Bed<br> 
+                        - Master en-suite <br>
+                        - Amaizing Views of the Lake & Rift Valley<br>
+                        <h5>Extras</h5>
+                            Toilet Paper<input type="checkbox" name="" id=""></input>
+                            Flops(a pair)<input type="checkbox" value=""></input>
+                            Towels<input type="checkbox" name="towel" id=""></input>
+
+                </div>
+              </div>
+
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row" id="personal">
+              <div class="col-6 col-md-4">
+                Name: <input type="text" name="name" required id="name">
+              </div>
+              <div class="col-6 col-md-4">
+                Email: <input type="email" name="email" required id="email">
+            </div>
+              <div class="col-6 col-md-4">
+                Phone Number: <input type="tel" name="number" required id="number">
+              </div>
+              <br>
+              <div class="submit text-center">
+        
+               <button id="res" class = "btn btn-danger"type="reset">Reserve </button> 
+               <button id="pay" class = "btn btn-success" ><a href="mpesa.php" id="pay">Pay Here</a> </button>
+
+                </div>
+             
+            </div>
+          </form>
+            
+          </div>
+  </section>
+  
+    <footer class="fixed-bottom">
+        
+        <div class="footer-bottom">
+            Copyright &copy; 2023 Lake Elementaita Resort
+        </div>
+    </footer>
+    <script href="description.js" src="description.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
