@@ -25,3 +25,6 @@ document.getElementById('book').addEventListener('click', (e)=> {
    // e.preventDefault()
     alert('Do you what to proceed for booking?')
 })
+document.getElementById('view-all').addEventListener('click',(e)=>{
+    alert('View all of our room here')
+})
