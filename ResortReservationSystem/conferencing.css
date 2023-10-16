@@ -75,7 +75,15 @@ body{
     background-size: cover;
    
 }
-
+#wedding{
+    background-color: grey;
+    padding: 15px;
+}
+#p1{
+    background-color: rgb(194, 93, 93);
+    padding: 15px;
+    font-style: italic;
+}
 .footer{
     background-color: #24262b;
     padding: 70px 0;
